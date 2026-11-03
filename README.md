@@ -12,5 +12,5 @@ Hệ thống số hóa quy trình order tại quầy, đồng bộ pha chế và
 
 \- Mai Quốc Trung (Nhóm trưởng) - MSSV: 25S1080039 - GitHub: quoctrung05072004-hub
 
-
+\-- - Xa Anh Thơ - MSSV: 25S1080036 - GitHub: kaido-911
 
