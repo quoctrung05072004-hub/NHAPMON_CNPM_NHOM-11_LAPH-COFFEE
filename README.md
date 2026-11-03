@@ -19,4 +19,4 @@ Hệ thống số hóa quy trình order tại quầy, đồng bộ pha chế và
 
  -Xa Anh Thơ - MSSV: 25S1080036 - GitHub: https://github.com/kaido-911
 
-Trương Đình Vũ - MSSV: 25S1080041 - Github: https://github.com/vu175070-laph
+ -Trương Đình Vũ - MSSV: 25S1080041 - Github: https://github.com/vu175070-laph
