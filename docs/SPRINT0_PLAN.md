@@ -1,44 +1,69 @@
-# Kế hoạch Sprint 0 — Nhóm 11 LAPH CAFE
+# KẾ HOẠCH SPRINT 0 – NHÓM 11 LAPH CAFE
 
-**Thời gian chuẩn bị:** 24–25/11/2026; **hạn theo thông báo thầy:** 18:00 Thứ Tư 25/11/2026.
+**Đề tài:** Xây dựng hệ thống quản lý order tại quầy cho LAPH CAFE  
+**Môn học:** Nhập môn Công nghệ phần mềm  
+**Nhóm:** 11 – 6 thành viên  
+**Thời gian thực hiện:** 24–25/11/2026  
+**Hạn nộp bài:** 18:00 ngày 25/11/2026
 
-**Sprint Goal:** Thống nhất vấn đề, phạm vi demo và kiến trúc, xây Product Backlog đủ ưu tiên và Story Points sơ bộ, tạo Jira Project và phân công 6 người, cập nhật GitHub và Clone về máy. **Sprint 1 mới bắt đầu code tính năng.**
+## 1. Mục tiêu Sprint 0
 
-## Phân công đề xuất
+Trong tuần này, nhóm tập trung chuẩn bị cho dự án: thống nhất các chức năng cần làm, lập Product Backlog, phân công nhiệm vụ, chọn công nghệ và phác thảo thiết kế ban đầu.
 
-| Người | Vai trò | Công việc | Bàn giao |
+Nhóm chọn làm **ứng dụng web**, sử dụng Python Flask, HTML/CSS/JavaScript và SQL Server. Khi báo cáo, nhóm sẽ demo trên một máy tính và chuyển qua các màn hình thu ngân, pha chế, phục vụ, quản lý.
+
+Ở Sprint 0, nhóm chưa triển khai toàn bộ chức năng. Phần lập trình sẽ được thực hiện ở các Sprint tiếp theo.
+
+## 2. Phân công công việc
+
+| Thành viên | Mã công việc trên Jira | Nội dung phụ trách | Kết quả dự kiến |
 |---|---|---|---|
-| Mai Quốc Trung | Nhóm trưởng / Scrum Master | Tầm nhìn sản phẩm, Product Backlog, quản lý Jira/GitHub, tổng hợp hồ sơ | README, Product Vision, tổng hợp ưu tiên/Story Points, minh chứng Sprint 0 |
-| Trương Đình Vũ | Phân tích thu ngân | Quy trình order, ghi chú, thanh toán giả lập | User Story US02–US06 và AC, quy trình thu ngân |
-| Xa Anh Thơ | Phân tích dữ liệu | Sơ đồ ERD, khóa chính/ngoại, số thẻ và lượt dùng | ERD sơ bộ, danh sách bảng dữ liệu |
-| Hoàng Trương Ngọc Ánh | Thiết kế giao diện | Wireframe thu ngân, pha chế, phục vụ (responsive) | 2–3 wireframe và mô tả thao tác |
-| Mai Văn Cường | Phân tích vận hành | Luồng pha chế, giao nước, trạng thái món/đơn | Activity diagram và bảng trạng thái |
-| Lê Viết Hưng | Kiến trúc và kiểm thử | Sơ đồ 3 lớp, yêu cầu phi chức năng, tiêu chí kiểm thử | Sơ đồ kiến trúc, checklist kiểm thử/rủi ro |
+| **Mai Quốc Trung** | **LAPH11-17** | Tổng hợp yêu cầu, viết tầm nhìn sản phẩm, lập Backlog và theo dõi tiến độ | Product Vision, danh sách User Story và kế hoạch nhóm |
+| **Trương Đình Vũ** | **LAPH11-18** | Phân tích các thao tác của thu ngân: chọn món, ghi chú, tính tiền, cấp số thẻ | Mô tả quy trình thu ngân, User Story và tiêu chí chấp nhận |
+| **Xa Anh Thơ** | **LAPH11-19** | Xác định dữ liệu cần lưu và thiết kế các bảng liên quan | Sơ đồ ERD sơ bộ, các bảng và quan hệ dữ liệu |
+| **Hoàng Trương Ngọc Ánh** | **LAPH11-20** | Phác thảo giao diện thu ngân, pha chế và phục vụ | Bản vẽ giao diện và mô tả thao tác chính |
+| **Mai Văn Cường** | **LAPH11-21** | Phân tích các bước nhận đơn, pha chế, giao nước và cập nhật tình trạng đơn | Sơ đồ quy trình xử lý đơn hàng |
+| **Lê Viết Hưng** | **LAPH11-22** | Đề xuất cách tổ chức hệ thống, yêu cầu bảo mật và kiểm thử | Sơ đồ kiến trúc và danh sách các trường hợp cần kiểm thử |
 
-## Các Task nên tạo trong Sprint 0 trên Jira
+Đây là phần việc mỗi người phụ trách chính. Cả nhóm cùng đọc lại các User Story, góp ý và thống nhất độ ưu tiên cũng như Story Points trước khi bắt đầu Sprint 1.
 
-| Mã nội bộ | Assignee | Summary | Tiêu chí hoàn thành |
-|---|---|---|---|
-| S0-01 | Trung | Tổng hợp Product Vision và Product Backlog | README, phạm vi demo, Backlog có priority + SP đề xuất |
-| S0-02 | Vũ | Khảo sát nghiệp vụ thu ngân | Luồng tạo đơn, ghi chú món, thanh toán + AC |
-| S0-03 | Thơ | Thiết kế ERD sơ bộ | Sơ đồ dữ liệu, bảng và quan hệ khóa |
-| S0-04 | Ánh | Thiết kế wireframe responsive | Màn hình thu ngân, pha chế/phục vụ (bản phác) |
-| S0-05 | Cường | Phân tích luồng pha chế — giao nước | Luồng trạng thái món/đơn, trường hợp khách đổi vị trí |
-| S0-06 | Hưng | Kiến trúc và tiêu chí kiểm thử | Sơ đồ 3 lớp, bảo mật cơ bản, checklist kiểm thử |
+## 3. Kế hoạch thực hiện
 
-Các Task chỉ chuyển **Done** sau khi có sản phẩm bàn giao thực tế; không đánh dấu hoàn thành thay thành viên.
+**Bước 1 – Xác định yêu cầu**
 
-## Checklist nhóm trưởng
+Dựa trên khảo sát tại LAPH CAFE, nhóm tập trung vào ba vấn đề: ghi chú món đôi khi bị thiếu trên bill, khó theo dõi tình trạng pha chế và mất thời gian tìm khách khi khách đổi chỗ.
 
-- [ ] Tạo Jira Project mới (không dùng Board KAN quản lý thư viện).
-- [ ] Mời đủ sáu thành viên vào Jira, xác nhận tên/người được giao.
-- [ ] Nhập Product Backlog từ `docs/PRODUCT_BACKLOG.md`, ưu tiên và Story Points.
-- [ ] Giao sáu Task Sprint 0 trên Jira.
-- [ ] Tổ chức thảo luận ngắn xác nhận điểm SP và quy trình sản phẩm.
-- [ ] Nhờ Hưng gửi username GitHub, mời vào repo, kiểm tra quyền.
-- [ ] Mỗi người Clone repository; lấy ảnh Jira có Task cá nhân để nộp.
-- [ ] Chụp Jira Project/Board thật, sao chép đúng URL rồi điền Google Form.
+**Bước 2 – Lập Product Backlog**
 
-## Kịch bản demo về sau
+Nhóm đã tổng hợp 16 User Story trên Jira, gồm các chức năng tạo đơn, nhập ghi chú, thanh toán, theo dõi pha chế, giao nước và quản lý. Mỗi Story có mức ưu tiên và Story Points đề xuất để nhóm trao đổi, điều chỉnh.
 
-Trên một laptop: đăng nhập thu ngân tạo đơn Trà đào (ít đường) + Cà phê sữa (không đá), cấp thẻ 15 và thanh toán giả lập; đổi sang tài khoản pha chế đọc đầy đủ ghi chú, cập nhật món đã pha; đổi sang phục vụ xem thẻ 15, nhập khu vực khách vừa ngồi, xác nhận đã giao. Đây là **kịch bản tương lai**, không phải tính năng đã hoàn thành ở Sprint 0.
+Chi tiết xem tại [Product Backlog](PRODUCT_BACKLOG.md).
+
+**Bước 3 – Phác thảo hệ thống**
+
+Các thành viên xây dựng sơ đồ cơ sở dữ liệu, bản phác giao diện, luồng xử lý đơn hàng và kiến trúc hệ thống. Các phần này sẽ được đối chiếu với nhau để thống nhất trước khi viết code.
+
+**Bước 4 – Tổng hợp và nộp bài**
+
+Từng thành viên đưa kết quả vào công việc Jira của mình. Nhóm trưởng kiểm tra, tổng hợp tài liệu và gửi các đường dẫn Jira, GitHub theo biểu mẫu của thầy.
+
+## 4. Tiến độ hiện tại
+
+Nhóm đã tạo dự án Jira **LAPH11**, nhập **16 User Story** vào Product Backlog, tạo **6 công việc Sprint 0** và phân công cho từng thành viên. Repository GitHub LAPH CAFE cũng đã có README, Backlog và tài liệu kiến trúc ban đầu.
+
+Các phần việc của từng thành viên đang tiếp tục được hoàn thiện. Sau khi nhận đủ bản vẽ, sơ đồ và nội dung phân tích, nhóm sẽ rà soát và cập nhật tài liệu chung.
+
+**Jira:** https://quoctrung05072004.atlassian.net/jira/software/projects/LAPH11/boards/3/backlog
+
+**GitHub:** https://github.com/quoctrung05072004-hub/NHAPMON_CNPM_NHOM-11_LAPH-COFFEE
+
+## 5. Hướng phát triển ở các Sprint tiếp theo
+
+Nhóm dự kiến làm trước luồng order tại quầy:
+
+1. Thu ngân chọn món, nhập ghi chú riêng cho từng món, nhận thanh toán và cấp thẻ số cho khách.
+2. Pha chế nhận được đơn và ghi chú, sau đó cập nhật trạng thái khi hoàn thành món.
+3. Phục vụ xem số thẻ, cập nhật vị trí khách khi cần và xác nhận đã giao nước.
+4. Quản lý xem thông tin bán hàng và các báo cáo cơ bản.
+
+Sản phẩm được thiết kế để demo trên một máy tính. Nhóm ưu tiên làm ổn định quy trình trên trước, sau đó mới bổ sung các chức năng như tích điểm và báo cáo chi tiết.
