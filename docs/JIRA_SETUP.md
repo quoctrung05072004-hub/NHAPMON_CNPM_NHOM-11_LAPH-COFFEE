@@ -5,7 +5,7 @@
 1. Truy cập Jira của nhóm, chọn **Spaces / Projects → Create space / Create project**.
 2. Chọn **Software development** → **Scrum** (ưu tiên vì có Sprint 0; nếu workspace chỉ cho Kanban, vẫn tạo Board và gắn nhãn Sprint 0 trong Task).
 3. Tên: **Nhóm 11 – LAPH CAFE – Quản lý order tại quầy**. Key đề xuất: **LAPH** hoặc **LAPH11** nếu chưa dùng.
-4. Mời sáu thành viên, phân quyền thành viên. Hưng cần cung cấp email Jira/GitHub.
+4. Xác nhận đủ sáu thành viên có quyền truy cập dự án Jira; kiểm tra quyền GitHub của từng thành viên.
 5. Tạo **Sprint 0** để theo dõi các Task nghiên cứu, thiết kế, môi trường; không đưa tính năng lập trình vào Doing của Sprint 0.
 
 ## B. Nhập Backlog

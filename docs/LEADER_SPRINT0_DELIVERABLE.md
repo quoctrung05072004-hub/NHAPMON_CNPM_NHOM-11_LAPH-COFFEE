@@ -83,8 +83,6 @@ Chi tiết User Story và Acceptance Criteria từng mục: [PRODUCT_BACKLOG.md]
 | [LAPH11-21](https://quoctrung05072004.atlassian.net/browse/LAPH11-21) | **Cường** | Sơ đồ luồng và trạng thái từng món | Vũ, Ánh |
 | [LAPH11-22](https://quoctrung05072004.atlassian.net/browse/LAPH11-22) | **Hưng** | Kiến trúc 3 lớp, NFR, checklist kiểm thử | Thơ, Trung |
 
-**Lê Viết Hưng tham gia từ Sprint 0 (24/11/2026), không được tính vào bài thực hành nhóm trước đó.**
-
 ## 5. Tiến độ nhóm trưởng — phân biệt việc đã làm và việc cần xác nhận
 
 ### Đã có minh chứng
