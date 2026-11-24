@@ -38,6 +38,7 @@ Python + Flask (backend), HTML/CSS/JavaScript + Bootstrap (frontend), Microsoft 
 
 - [Product Backlog — 16 User Stories](docs/PRODUCT_BACKLOG.md)
 - [Kế hoạch & phân công 6 người](docs/SPRINT0_PLAN.md)
+- [Hồ sơ nhóm trưởng — Sprint 0](docs/LEADER_SPRINT0_DELIVERABLE.md)
 - [Kiến trúc kỹ thuật dự kiến](docs/ARCHITECTURE.md)
 - [Hướng dẫn tạo Jira và nộp Google Form](docs/JIRA_SETUP.md)
 - [Các câu hỏi chưa xác minh](docs/OPEN_QUESTIONS.md)
