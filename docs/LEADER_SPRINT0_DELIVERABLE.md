@@ -5,7 +5,7 @@
 **Jira:** [LAPH11 – Scrum Backlog](https://quoctrung05072004.atlassian.net/jira/software/projects/LAPH11/boards/3/backlog)  
 **Task nhóm trưởng:** [LAPH11-17](https://quoctrung05072004.atlassian.net/browse/LAPH11-17)  
 **Ngày chuẩn bị:** 24/11/2026  
-**Trạng thái:** Hoàn thành **bản dự thảo** do nhóm trưởng tổng hợp; cần cả nhóm rà soát/chốt Story Points và bổ sung kết quả bàn giao trước khi kết luận Sprint 0 hoàn tất.
+**Nội dung phụ trách:** Product Vision, phạm vi hệ thống, Product Backlog, kế hoạch Sprint 0 và điều phối công việc nhóm.
 
 ## 1. Lý do chọn đề tài và vấn đề cần giải quyết
 
@@ -14,7 +14,7 @@ Từ khảo sát LAPH CAFE: quán hoạt động theo mô hình khách **order v
 2. Chưa có luồng trạng thái điện tử xuyên suốt thu ngân → pha chế → phục vụ.
 3. Khách ngồi tự do và có thể đổi chỗ; phục vụ phải tự tìm nếu không biết vị trí mới.
 
-**Giới hạn tính đúng đắn:** Số thẻ là định danh lượt khách, **không phải số bàn cố định**. Phục vụ chỉ cập nhật vị trí sau khi xác nhận được; không giả định hệ thống tự theo dõi khách.
+**Lưu ý:** Số thẻ khách cầm không phải số bàn cố định. Khi khách chuyển chỗ, nhân viên phục vụ có thể cập nhật lại vị trí trong hệ thống.
 
 ## 2. Product Vision
 
@@ -28,7 +28,7 @@ Từ khảo sát LAPH CAFE: quán hoạt động theo mô hình khách **order v
 
 **Có:** xem menu; tạo đơn nhiều món; lưu ghi chú từng món; cấp thẻ; ghi nhận thanh toán giả lập; màn hình pha chế; trạng thái từng món; màn hình phục vụ; cập nhật vị trí tự do; xác nhận giao đủ.
 
-**Không có trong MVP:** xử lý ngân hàng thật, đồng bộ POS/máy in bill thật, tích điểm, chấm công, báo cáo nâng cao. Sửa/hủy sau thanh toán **chưa được chốt chính sách**, không tự xây dựng quy định.
+**Không có trong MVP:** xử lý ngân hàng thật, đồng bộ POS/máy in bill thật, tích điểm, chấm công, báo cáo nâng cao. Quy trình sửa/hủy sau thanh toán sẽ bổ sung sau khi thống nhất quy định.
 
 ## 3. Product Backlog — bản tổng hợp để nhóm thảo luận
 
@@ -51,7 +51,7 @@ Từ khảo sát LAPH CAFE: quán hoạt động theo mô hình khách **order v
 | US15 | Giao ca và đối soát | P2 | 5 | LAPH11-15 |
 | US16 | Khách hàng thành viên, tích điểm | P3 | 8 | LAPH11-16 |
 
-**Tổng sơ bộ:** 16 Story, 70 Story Points đề xuất (P1: 41; P2: 13; P3: 8; Chờ khảo sát: 8). **Không coi 70 điểm là cam kết Sprint 1**. Điểm chưa được nhóm xác nhận và US13 chỉ là độ phức tạp ước lượng, không lên lịch triển khai.
+**Tổng hợp:** 16 User Story với 70 Story Points ước lượng ban đầu (P1: 41; P2: 13; P3: 8; chờ khảo sát: 8). Nhóm sẽ rà soát và thống nhất lại các điểm trước khi lập kế hoạch Sprint 1.
 
 Chi tiết User Story và Acceptance Criteria từng mục: [PRODUCT_BACKLOG.md](./PRODUCT_BACKLOG.md).
 
@@ -67,8 +67,8 @@ Chi tiết User Story và Acceptance Criteria từng mục: [PRODUCT_BACKLOG.md]
 1. Cả 6 người đọc mỗi Story và Acceptance Criteria.
 2. Mỗi người tự ước lượng 1/2/3/5/8 theo khối lượng, độ khó và rủi ro.
 3. Khi có điểm khác nhau, trao đổi nguyên nhân, thống nhất một điểm.
-4. Trung cập nhật **trường Story Points và Priority trên Jira**, không chỉ trong Description, sau cuộc thống nhất.
-5. Ghi lại mục chưa thống nhất hoặc còn câu hỏi vào Backlog, không trình bày ước lượng dự thảo như dữ liệu đã được bình chọn.
+4. Nhóm trưởng cập nhật độ ưu tiên và điểm đã thống nhất lên Jira.
+5. Các nội dung chưa rõ được giữ lại để tiếp tục trao đổi ở buổi họp sau.
 
 ## 4. Công việc Sprint 0 — trách nhiệm chung và người phụ trách chính
 
@@ -83,35 +83,31 @@ Chi tiết User Story và Acceptance Criteria từng mục: [PRODUCT_BACKLOG.md]
 | [LAPH11-21](https://quoctrung05072004.atlassian.net/browse/LAPH11-21) | **Cường** | Sơ đồ luồng và trạng thái từng món | Vũ, Ánh |
 | [LAPH11-22](https://quoctrung05072004.atlassian.net/browse/LAPH11-22) | **Hưng** | Kiến trúc 3 lớp, NFR, checklist kiểm thử | Thơ, Trung |
 
-## 5. Tiến độ nhóm trưởng — phân biệt việc đã làm và việc cần xác nhận
+## 5. Kết quả thực hiện
 
-### Đã có minh chứng
+Trong Sprint 0, nhóm trưởng đã thực hiện các công việc khởi tạo và tổng hợp ban đầu:
 
-- [x] Jira **LAPH11** theo mẫu Scrum đã được tạo (người dùng đã xác nhận qua ảnh).
-- [x] Nhập CSV **22/22 công việc**, gồm 16 Story và 6 Task, không lỗi (ảnh kết quả import).
-- [x] Đưa 6 Task **LAPH11-17 đến LAPH11-22** vào Sprint 0 (ảnh Backlog).
-- [x] Gán 6 Task tương ứng cho Trung, Vũ, Thơ, Ánh, Cường, Hưng (ảnh Board).
-- [x] Có repository GitHub dự án với README, Backlog và tài liệu kiến trúc.
-- [x] Bản dự thảo Product Vision, phạm vi và Backlog có ưu tiên/SP đề xuất được tổng hợp tại đây.
+- Tạo dự án Scrum **LAPH11** trên Jira.
+- Nhập **16 User Story** vào Product Backlog và **6 Task** vào Sprint 0.
+- Phân công các Task từ **LAPH11-17 đến LAPH11-22** cho 6 thành viên.
+- Tổng hợp tầm nhìn sản phẩm, chức năng cần phát triển, mức ưu tiên và Story Points dự kiến.
+- Cập nhật README, Product Backlog và tài liệu kế hoạch trên GitHub.
 
-### Chưa hoàn tất, phải làm thật trước khi báo xong Sprint 0
+### Công việc tiếp theo của nhóm
 
-- [ ] Cả 6 thành viên cùng **xác nhận** Story Points, ưu tiên và nội dung.
-- [ ] Người phụ trách nộp đủ tài liệu của mình và được nhóm rà soát.
-- [ ] Hưng cung cấp **username GitHub**, được mời và clone repo (email Jira đã có).
-- [ ] Từng thành viên clone repo và xác nhận trên Jira.
-- [ ] Kiểm tra giảng viên đăng nhập được vào Jira **LAPH11**; trạng thái *Open* không đảm bảo truy cập công khai.
-- [ ] Cập nhật trường Priority và Story Points riêng biệt trong Jira sau cuộc thống nhất.
-- [ ] Từng bạn chụp ảnh Jira đúng Task cá nhân và điền Google Form.
+- Các thành viên xem lại User Story và cùng thống nhất Story Points.
+- Hoàn thành các phần được phân công: nghiệp vụ thu ngân, ERD, giao diện, quy trình pha chế – phục vụ, kiến trúc và kiểm thử.
+- Tổng hợp các tài liệu vào hồ sơ Sprint 0 và cập nhật tiến độ trên Jira.
+- Kiểm tra quyền truy cập Jira và GitHub, chuẩn bị thông tin nộp bài của từng thành viên.
 
-## 6. Tiêu chí nộp theo thông báo
+## 6. Thông tin nộp bài
 
-- **Link Jira:** https://quoctrung05072004.atlassian.net/jira/software/projects/LAPH11/boards/3/backlog
-- **Link GitHub:** https://github.com/quoctrung05072004-hub/NHAPMON_CNPM_NHOM-11_LAPH-COFFEE
-- **Ảnh minh chứng Jira:** Người nộp chụp Task gắn tên mình và mã LAPH11.
-- **Ảnh Commit GitHub:** Biểu mẫu ghi “**chưa áp dụng với Sprint 0**”; không phải tạo commit hình thức.
-- **Hạn:** 18:00 ngày 25/11/2026 theo ảnh thông báo đã được nhóm cung cấp.
+- **Jira:** https://quoctrung05072004.atlassian.net/jira/software/projects/LAPH11/boards/3/backlog
+- **GitHub:** https://github.com/quoctrung05072004-hub/NHAPMON_CNPM_NHOM-11_LAPH-COFFEE
+- **Ảnh Jira:** Chụp công việc được phân công, thể hiện mã Task và tên người phụ trách.
+- **Ảnh commit GitHub:** Chưa áp dụng với Sprint 0 theo nội dung biểu mẫu.
+- **Hạn nộp:** 18:00, ngày 25/11/2026.
 
-## 7. Kết luận nhóm trưởng
+## 7. Tổng kết
 
-Nhóm đã xác định rõ vấn đề thực tế, giới hạn sản phẩm demo, Product Backlog ban đầu và nhiệm vụ của các thành viên. Bản tổng hợp này làm cơ sở để **cả 6 người xác nhận và bổ sung** trong Sprint 0, sau đó phát triển lần lượt các tính năng qua Sprint 1 trở đi. Không trình bày đây là sản phẩm đã hoàn thành hoặc kết quả khảo sát chính sách chưa xác minh.
+Ở Sprint 0, nhóm tập trung xác định yêu cầu, xây dựng Product Backlog, lựa chọn công nghệ và phân công nhiệm vụ. Các tài liệu được sử dụng làm cơ sở để nhóm triển khai chức năng order tại quầy trong những Sprint tiếp theo.
