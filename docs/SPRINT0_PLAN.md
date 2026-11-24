@@ -10,9 +10,9 @@
 
 Trong tuần này, nhóm tập trung chuẩn bị cho dự án: thống nhất các chức năng cần làm, lập Product Backlog, phân công nhiệm vụ, chọn công nghệ và phác thảo thiết kế ban đầu.
 
-Nhóm chọn làm **ứng dụng web**, sử dụng Python Flask, HTML/CSS/JavaScript và SQL Server. Khi báo cáo, nhóm sẽ demo trên một máy tính và chuyển qua các màn hình thu ngân, pha chế, phục vụ, quản lý.
+Nhóm chọn phát triển ứng dụng web với Python Flask, HTML/CSS/JavaScript và SQL Server. Hệ thống có các giao diện tương ứng với công việc của thu ngân, pha chế, phục vụ và quản lý.
 
-Ở Sprint 0, nhóm chưa triển khai toàn bộ chức năng. Phần lập trình sẽ được thực hiện ở các Sprint tiếp theo.
+Trong Sprint 0, nhóm thực hiện các công việc chuẩn bị về yêu cầu, thiết kế và tổ chức dự án. Giai đoạn phát triển chức năng bắt đầu từ những Sprint tiếp theo.
 
 ## 2. Phân công công việc
 
@@ -66,4 +66,4 @@ Nhóm dự kiến làm trước luồng order tại quầy:
 3. Phục vụ xem số thẻ, cập nhật vị trí khách khi cần và xác nhận đã giao nước.
 4. Quản lý xem thông tin bán hàng và các báo cáo cơ bản.
 
-Sản phẩm được thiết kế để demo trên một máy tính. Nhóm ưu tiên làm ổn định quy trình trên trước, sau đó mới bổ sung các chức năng như tích điểm và báo cáo chi tiết.
+Nhóm ưu tiên hoàn thiện quy trình xử lý đơn hàng trước, sau đó phát triển các chức năng như tích điểm và báo cáo chi tiết.

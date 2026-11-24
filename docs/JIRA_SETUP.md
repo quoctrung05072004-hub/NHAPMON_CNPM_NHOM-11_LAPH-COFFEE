@@ -1,35 +1,40 @@
-# Tạo Jira Project LAPH CAFE và nộp Sprint 0
+# THÔNG TIN QUẢN LÝ DỰ ÁN – NHÓM 11 LAPH CAFE
 
-## A. Tạo Project mới (không dùng KAN cũ)
+## 1. Dự án trên Jira
 
-1. Truy cập Jira của nhóm, chọn **Spaces / Projects → Create space / Create project**.
-2. Chọn **Software development** → **Scrum** (ưu tiên vì có Sprint 0; nếu workspace chỉ cho Kanban, vẫn tạo Board và gắn nhãn Sprint 0 trong Task).
-3. Tên: **Nhóm 11 – LAPH CAFE – Quản lý order tại quầy**. Key đề xuất: **LAPH** hoặc **LAPH11** nếu chưa dùng.
-4. Xác nhận đủ sáu thành viên có quyền truy cập dự án Jira; kiểm tra quyền GitHub của từng thành viên.
-5. Tạo **Sprint 0** để theo dõi các Task nghiên cứu, thiết kế, môi trường; không đưa tính năng lập trình vào Doing của Sprint 0.
+**Tên dự án:** Nhóm 11 – LAPH CAFE – Quản lý Order tại quầy  
+**Mã dự án:** LAPH11  
+**Phương pháp:** Scrum
 
-## B. Nhập Backlog
+**Đường dẫn:** https://quoctrung05072004.atlassian.net/jira/software/projects/LAPH11/boards/3/backlog
 
-- Từ `docs/PRODUCT_BACKLOG.md`: tạo 16 Story, dùng tiêu đề `US01 - ...`, Description là User Story + Acceptance Criteria, Priority P1/P2/P3, Story Points theo cột đề xuất.
-- Nếu không thấy trường Story Points: thêm trường ước lượng trong cấu hình Issue hoặc ghi `Story Points đề xuất: 3/5/8` trong Description; đừng tự ghi nhận là cả nhóm đã thống nhất.
-- US13 để **Chờ khảo sát**, không xếp Sprint 1.
+Nhóm sử dụng Jira để quản lý Product Backlog, Sprint và công việc của từng thành viên. Hiện tại, Backlog gồm 16 User Story. Sáu công việc chuẩn bị được đưa vào Sprint 0 và giao cho các thành viên theo bảng dưới đây.
 
-## C. Phân công Sprint 0
+| Mã Jira | Người phụ trách | Nội dung |
+|---|---|---|
+| LAPH11-17 | Mai Quốc Trung | Tổng hợp Product Vision, Product Backlog và kế hoạch nhóm |
+| LAPH11-18 | Trương Đình Vũ | Phân tích quy trình thu ngân |
+| LAPH11-19 | Xa Anh Thơ | Thiết kế cơ sở dữ liệu |
+| LAPH11-20 | Hoàng Trương Ngọc Ánh | Phác thảo giao diện |
+| LAPH11-21 | Mai Văn Cường | Phân tích quy trình pha chế và phục vụ |
+| LAPH11-22 | Lê Viết Hưng | Kiến trúc hệ thống và kiểm thử |
 
-- Tạo 6 Task theo `docs/SPRINT0_PLAN.md`, mỗi người được gán một Task.
-- Giữ trạng thái **To Do** đến khi người nhận bắt đầu; chỉ chuyển **Done** khi có kết quả thật.
-- Có thể thêm URL tài liệu đầu ra vào Description/Comment của Task khi hoàn thành.
+## 2. Sử dụng Jira trong Sprint 0
 
-## D. Nộp Google Form
+Khi bắt đầu công việc, thành viên cập nhật trạng thái **In Progress**. Kết quả thực hiện có thể được đính kèm trực tiếp vào Task hoặc chia sẻ bằng liên kết tài liệu. Sau khi nhóm kiểm tra, công việc được chuyển sang **Done**.
 
-**Link Jira dự án:** URL Board/Project LAPH mới, không dùng Board KAN của bài quản lý thư viện.
+Các User Story được giữ trong Product Backlog. Nhóm sẽ rà soát độ ưu tiên, Story Points và chọn công việc cho các Sprint tiếp theo.
 
-**Ảnh Jira có vai trò cá nhân:** mỗi thành viên chụp màn hình thấy tên Task và assignee của mình. Nếu Board không hiện tên, mở chi tiết Task rồi chụp.
+## 3. Đường dẫn GitHub
 
-**Link GitHub dự án:** https://github.com/quoctrung05072004-hub/NHAPMON_CNPM_NHOM-11_LAPH-COFFEE
+**Repository:** https://github.com/quoctrung05072004-hub/NHAPMON_CNPM_NHOM-11_LAPH-COFFEE
 
-**Ảnh Commit thể hiện vai trò cá nhân:** Biểu mẫu ghi rõ **chưa áp dụng với Sprint 0**, nên không phải tạo commit mới chỉ để có ảnh.
+Repository lưu README, Product Backlog, kế hoạch nhóm và các tài liệu phân tích. Các thành viên sử dụng chung repository trong quá trình phát triển hệ thống.
 
-**Ghi chú:** có thể ghi `Nhóm 11 – LAPH CAFE. Sprint 0. Nhiệm vụ: [tên Task].` (chỉ ghi hoàn thành nếu đã hoàn thành).
+## 4. Thông tin nộp bài
 
-**Trước khi bấm Gửi:** kiểm tra tên, MSSV, link Jira và GitHub, ảnh có rõ người nhận việc và không có file nào vượt 10MB.
+Theo biểu mẫu Sprint 0, mỗi thành viên cung cấp liên kết Jira, ảnh thể hiện công việc được giao và liên kết GitHub của nhóm. Mục ảnh commit chưa áp dụng ở Sprint 0.
+
+Nhóm kiểm tra quyền truy cập Jira của giảng viên trước khi nộp để bảo đảm có thể xem các công việc liên quan.
+
+**Hạn nộp:** 18:00 ngày 25/11/2026.
