@@ -4,6 +4,8 @@
 
 **Sprint Goal:** Thống nhất vấn đề, phạm vi demo và kiến trúc, xây Product Backlog đủ ưu tiên và Story Points sơ bộ, tạo Jira Project và phân công 6 người, cập nhật GitHub và Clone về máy. **Sprint 1 mới bắt đầu code tính năng.**
 
+**Thành viên mới từ Sprint 0:** Lê Viết Hưng gia nhập nhóm ngày 24/11/2026, không tham gia hoặc chịu trách nhiệm các bài thực hành trước. Công việc của Hưng bắt đầu ở Sprint 0 và các Sprint tiếp theo.
+
 ## Phân công đề xuất
 
 | Người | Vai trò | Công việc | Bàn giao |

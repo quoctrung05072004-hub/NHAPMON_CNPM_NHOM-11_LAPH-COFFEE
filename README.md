@@ -19,6 +19,8 @@ Xây dựng phần mềm web demo giúp quán LAPH CAFE quản lý quy trình **
 
 Python + Flask (backend), HTML/CSS/JavaScript + Bootstrap (frontend), Microsoft SQL Server (database), SQLAlchemy + pyodbc (truy cập dữ liệu), Git/GitHub (cộng tác), Jira (theo dõi).
 
+**Lịch sử thành viên:** Từ bài thực hành trước đến hết tuần trước nhóm có 5 thành viên (Trung, Vũ, Thơ, Ánh, Cường). **Lê Viết Hưng chính thức tham gia từ 24/11/2026, bắt đầu ở Sprint 0 dự án LAPH CAFE.** Không ghi Hưng là người thực hiện các bài thực hành/commit trước thời điểm này.
+
 ## Thành viên nhóm 11
 
 | Thành viên | Vai trò Sprint 0 | GitHub |
